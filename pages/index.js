@@ -24,8 +24,8 @@ export default function Home() {
   return (
     <div>
       <h1>My Posts</h1>
-      {posts.map((posts, index) => (
-        <p>{posts.title}</p>
+      {posts.map((post, index) => (
+        <p key={index}>{post.title}</p>
       ))}
     </div>
   );
