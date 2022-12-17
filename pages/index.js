@@ -1,5 +1,5 @@
-import { useState, useEffect } from "react";
 import { API } from "aws-amplify";
+import { useEffect, useState } from "react";
 import { listPosts } from "../src/graphql/queries";
 
 export default function Home() {
@@ -23,7 +23,7 @@ export default function Home() {
 
   return (
     <div>
-      <h1>My Posts</h1>
+      <h1>asdjk;fhaklsjdfhasdkhjf</h1>
       {posts.map((post, index) => (
         <p key={index}>{post.title}</p>
       ))}
